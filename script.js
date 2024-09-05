@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', async function() {
     const apiKey = 'cc68bd4d6b26495ba2d60337241208';
-    const cityName = 'Iligan';
     const apiEndpoint = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${cityName}&days=7`;
  
  

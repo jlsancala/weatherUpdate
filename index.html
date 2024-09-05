@@ -58,25 +58,31 @@
     display: flex;
 }
 
-#cityInput {
-    width: 30%;
+    #cityInput {
+    width: 10%;
     height:3vh;
-}
+    }
 
-#searchButton {
+    #searchButton {
     width: 5%;
     height:3vh;
     background-color: white;
     color:black;
-}
+    }
+
+    .searchWrapper {
+        justify-content: right;
+    }
 </style>
 <body>
+    <h1 class="location-label">Weather Update - Iligan City</h1>
+
     <div class="searchbar">
         <div class="searchWrapper">
             <input type="text" id="cityInput" placeholder="Search City Name">  
-            <button id="searchButton">search</button>
+            <button id="searchButton">Search</button>
         </div>
-            <h1 class="location-label">Weather Update - Iligan City</h1>
+            
         <div id="weather">
         </div>
     <footer>John Louis Sancala - August, 15, 2024</footer>

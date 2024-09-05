@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', async function() {
  
     try {
 
-        const response = await fetch(apiEndpoint); // Wait for the fetch to complete
-        const weatherData = await response.json(); // Wait for the response to be parsed into JSON
+        const response = await fetch(apiEndpoint);
+        const weatherData = await response.json();
  
         const weatherContainer = document.getElementById('weather');
         const temperatureInCelsius = weatherData.current.temp_c;
